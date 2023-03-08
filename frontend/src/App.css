@@ -1,0 +1,959 @@
+body {
+  /* background-color: #fbfcc5 !important; */
+  /* background: url("./image/backYellow.jpg") no-repeat center center; */
+  /* background-color: #ffc107 !important; */
+  background-color: #b1f3b1 !important;
+  background-attachment: fixed;
+}
+
+.footer {
+  position: relative;
+  /* bottom: 0; */
+  top: 40px;
+  color: black;
+  width: 100%;
+  height: 150px;
+  /* background: #000000; */
+}
+
+#page-size {
+  padding-top: 80px;
+  min-height: 100vh;
+}
+
+.card {
+  color: black;
+  width: 50%;
+  padding-left: 3px;
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */
+}
+
+/* .container-fluid {
+  This is to fix the horizonal flow that is caused by bootstrap row 
+  overflow: hidden;
+} */
+
+/* ------------------------------------------------------------------Login */
+
+.logoBig {
+  padding-top: 25%;
+}
+
+#ribbitLogoBig {
+  height: auto;
+  max-width: 100%;
+  padding-left: 60px;
+}
+
+#loginCard {
+  /* background: url("./image/cardArtBackground.jpg") no-repeat center center; */
+  background-color: rgb(118, 195, 118);
+}
+
+#loginCardPaddingTop {
+  padding-top: 10vh;
+}
+
+#sendResetPasswordEmailCardPaddingTop {
+  padding-top: 12vh;
+}
+
+#registerCardPaddingTop {
+  padding-top: 3vh;
+}
+
+#forgotPass {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#footerLinks {
+  text-decoration: none;
+  color: black;
+}
+
+#footerLinks:hover {
+  text-decoration: underline;
+}
+
+#signUpLink {
+  text-decoration: none;
+  color: blue;
+}
+
+#logoSmallBackToRibbit {
+  height: auto;
+  max-width: 8%;
+  padding-right: 1px;
+  padding-bottom: 1px;
+}
+
+/* -------------------------------------------------------------------Home page */
+
+#createPost {
+  width: 100%;
+}
+
+#chooseFilter {
+  width: 100%;
+  background-color: black;
+}
+
+#searchTitle {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  ;
+  width: 100%;
+}
+
+#clearSearchButton {
+  all: unset;
+  cursor: pointer;
+}
+
+#communityNoPostsYetPaddingTop {
+  min-height: 20vh;
+}
+
+/* -------------------------------------------------------------------User */
+
+#userNoPostsYetPaddingTop {
+  min-height: 20vh;
+}
+
+/* -------------------------------------------------------------------UserNavbar */
+
+#logoNavbar {
+  padding-right: 7px;
+}
+
+#buttonHome {
+  max-width: 200px;
+  height: 100%;
+  padding-right: 20px;
+}
+
+#buttonCommunities {
+  max-width: 400px;
+  height: 100%;
+  padding-right: 20px;
+}
+
+#buttonExplore {
+  max-width: 400px;
+  height: 100%;
+  padding-right: 40px;
+}
+
+#homeLogo {
+  color: white;
+  max-width: 50px;
+  padding-right: 15px;
+}
+
+#profileLogo {
+  max-width: 45px;
+  border-radius: 50%;
+  /* border: 1px solid white; */
+  background-color: #b1f3b1;
+}
+
+/* ---------------------------------------------------------------------Post */
+
+#postCardLeft {
+  background-color: lightgoldenrodyellow;
+}
+
+#postCardMain:hover {
+  border: 1px solid #000;
+}
+
+#postCardBottomRight {
+  height: 80%;
+}
+
+#postCardLink {
+  text-decoration: none !important;
+}
+
+#postCardSize {
+  width: 100%;
+}
+
+#postCardUsername {
+  text-decoration: none;
+  color: grey;
+}
+
+#postCardUsername:hover {
+  text-decoration: underline;
+}
+
+#postCardSubRibbit {
+  text-decoration: none;
+  color: grey;
+}
+
+#postCardSubRibbit:hover {
+  text-decoration: underline;
+}
+
+#postCardHeader {
+  font-size: 15px;
+  color: grey;
+  text-decoration: none;
+}
+
+#postCardBody {
+  text-decoration: none;
+  color: black;
+}
+
+#postCardContent {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 400px;
+}
+
+#postCardFooter {
+  background-color: white;
+  font-size: 12px;
+}
+
+/* --------------------------------------------------------------------Post Details */
+
+#postDetailUsername {
+  text-decoration: none;
+  color: black;
+}
+
+#postDetailUsername:hover {
+  text-decoration: underline;
+}
+
+#postDetailSubRibbit {
+  text-decoration: none;
+  color: black;
+}
+
+#postDetailSubRibbit:hover {
+  text-decoration: underline;
+}
+
+#postDetailCard {
+  width: 100%;
+}
+
+#postStats {
+  font-size: 11px;
+}
+
+#commentAsLabel {
+  font-size: 12px;
+}
+
+#noCommentsYet {
+  width: 100%;
+  color: grey;
+}
+
+#allComments {
+  width: 100%;
+}
+
+/* ---------------------------------------------------------------------Create Post */
+
+#dropdownMenuLink {
+  width: 100%;
+}
+
+#writePost {
+  width: 100%;
+}
+
+#defaultCommunityIsHome {
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+/* ----------------------------------------------------------------------Comment */
+
+#commentCard:hover {
+  border: 1px solid #000;
+}
+
+#commentHeader {
+  font-size: 12px;
+}
+
+#commentUsername {
+  text-decoration: none;
+  color: black;
+}
+
+#commentUsername:hover {
+  text-decoration: underline;
+}
+
+#commentMention {
+  text-decoration: none;
+  color: blue;
+}
+
+/* ------------------------------------------------------------------------UserCard */
+
+#userCardSize {
+  width: 100%;
+}
+
+#profileSettingButton {
+  font-size: 20px;
+}
+
+#userCardProfileImage {
+  border: 5px solid #000;
+  background-color: #b1f3b1;
+  border-radius: 50%;
+}
+
+#updateUserProfileButton {
+  cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------HomeSideBar */
+
+#homeSideBarSize {
+  width: 100%;
+}
+
+/* --------------------------------------------------------------------------Comment */
+
+#userImageComment {
+  width: 50px;
+  height: 50px;
+}
+
+#commentContent {
+  padding-left: 30px;
+}
+
+/* -------------------------------------------------------------ConfirmDeleteCommentModal */
+
+#confirmDeleteModalHeader {
+  background-color: lightgreen;
+  color: black;
+}
+
+#confirmDeleteModalButtonSubmit {
+  background-color: black;
+}
+
+#confirmDeleteModalButtonCancel {
+  background-color: white;
+  color: black;
+}
+
+/* -----------------------------------------------------------------------PostCardDropDown */
+
+#postCardDropDown {
+  font-size: 17px;
+}
+
+/* -------------------------------------------------------------------------SuccessToast */
+
+#successToastCard {
+  max-width: 20%;
+  position: fixed;
+  bottom: 0;
+  right: 40%;
+  align-self: center;
+  /* NOTE: use z-index to create overlay effect */
+  z-index: 999999;
+}
+
+/* ---------------------------------------------------------------------------VotePostButton */
+
+#unauthenticatedVotePostButton {
+  color: #000;
+}
+
+#votePostButtonSize {
+  font-size: 14px;
+}
+
+/* ---------------------------------------------------------------------------SubribbitCard */
+
+#subribbitCardLink {
+  text-decoration: none !important;
+  color: black;
+}
+
+#subribbitCardMain:hover {
+  border: 1px solid #000;
+  background-color: lightgoldenrodyellow;
+}
+
+/* ---------------------------------------------------------------------------SubribbitSideBar */
+
+#subribbitSideBarSize {
+  width: 100%;
+}
+
+#subribbitSidebarDescription {
+  font-size: 90%;
+}
+
+/* ---------------------------------------------------------------------------SubribbitMembers */
+
+#subribbitMemberImage {
+  width: 50px;
+  height: 50px;
+}
+
+#subribbitMemberName {
+  padding-top: 15px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+#subribbitMemberNameDecoration {
+  text-decoration: none;
+  color: black;
+}
+
+#subribbitMemberCard:hover {
+  border: 1px solid #000;
+  border-radius: 25px;
+}
+
+#updateSubribbitMemberButtonConfirm {
+  background-color: black;
+}
+
+#updateSubribbitMemberButtonCancel {
+  background-color: white;
+  color: black;
+}
+
+#showSubribbitMembersForMembersButton {
+  color: white;
+}
+
+/* ---------------------------------------------------------------------------ShowMySubribbits */
+
+#logoSmallShowMySubribbitsButton {
+  height: auto;
+  max-width: 15%;
+}
+
+#logoSmallShowMySubribbitsModal {
+  height: auto;
+  max-width: 8%;
+}
+
+#mySubribbitItem {
+  text-decoration: none;
+  color: black;
+  height: 4vh;
+}
+
+#mySubribbitItem:hover {
+  border: 1px solid #000;
+  border-radius: 25px;
+  background-color: lightgoldenrodyellow;
+}
+
+/* --------------------------------------------------------------------------Notifications */
+
+#notificationCard {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 1px solid black;
+}
+
+#notificationCard:hover {
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+#notificationCardLink {
+  text-decoration: none;
+  color: black;
+}
+
+/* --------------------------------------------------------------------------InformationSideBar */
+
+#informationSideBarSize {
+  width: 100%;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 100px;
+}
+
+/* ---------------------------------------------------------------------------PostSideBar */
+
+#postSideBarGoToSub {
+  width: 100%;
+}
+
+/* ---------------------------------------------------------------------------TopSubribbits */
+
+#topSubribbitItem {
+  text-decoration: none;
+  color: black;
+  height: 4vh;
+
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#topSubribbitItem:hover {
+  border: 1px solid #000;
+  border-radius: 25px;
+  font-weight: bold;
+  background-color: lightgoldenrodyellow;
+}
+
+#topSubribbitNumberOfMembers {
+  position: relative;
+  top: -2px;
+  color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+  #topSubribbitItem small {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------HomeSubSideBar */
+
+#homeSubSideBarExploreLink {
+  text-decoration: none;
+  color: black;
+}
+
+/* ---------------------------------------------------------------------------Landing Pages CSS */
+
+:root {
+  --color-primary: #b1f3b1;
+  --color-secondary: #090909;
+  --color-tertiary: #ff5100;
+  --color-quaternary: #ffffff;
+  --color-border: #333333;
+}
+
+.h2 {
+  font-weight: 600;
+}
+
+.header__container,
+.main,
+.footer,
+#about {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 60px;
+}
+
+.header {
+  border-bottom: .2px solid var(--color-border);
+}
+
+/* re-used */
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .nav__menu,
+.hero__left--bottom--ul {
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo .logo__img img {
+  max-width: 100%;
+  display: block;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav .nav__menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.nav .nav__menu .nav__menu--items {
+  margin: 0 10px;
+  transition: all 0.1s ease-in-out 0s;
+  padding: 0 5px;
+}
+
+.nav .nav__menu .nav__menu--items:hover {
+  background-color: var(--color-secondary);
+  transform: rotate(-7deg) scale(1.1);
+}
+
+.nav .nav__menu .nav__menu--items:hover a {
+  color: var(--color-primary);
+}
+
+.nav .nav__menu .nav__menu--items a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+.main {
+  height: 100%;
+}
+
+.section {
+  display: block;
+  padding: 40px 0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__left {
+  width: 40%;
+  min-width: 300px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  /* height: 85vh; */
+}
+
+.hero__left--h2 {
+  font-size: 50px;
+}
+
+.hero__left--bottom {
+  padding: 20px 0;
+  width: 100%;
+}
+
+form.get-access {
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+}
+
+form.get-access input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  margin-right: 7px;
+  border-radius: 2px;
+}
+
+form.get-access .get-access-btn {
+  background: var(--color-secondary);
+  color: var(--color-quaternary);
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: 400;
+}
+
+.hero__left--bottom--ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__left--bottom--ul li {
+  display: flex;
+  align-items: center;
+}
+
+.hero__left--bottom--ul li .inline-a {
+  font-size: 12px;
+}
+
+.hero__right {
+  width: 40%;
+}
+
+.hero__right .video {
+  width: 100%;
+  min-height: 300px;
+  height: 100%;
+}
+
+/**/
+.text__secondary {
+  padding: 10px 0;
+  line-height: 1.8;
+  display: inline-block;
+}
+
+svg {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer__socials {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+a.footer__socials--link {
+  display: block;
+}
+
+a.footer__socials--link svg {
+  width: 32px;
+  height: 32px;
+}
+
+.footer__socials li:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* about page*/
+#about p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/* button styles */
+.btn-all {
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary-app {
+  text-transform: uppercase;
+  background: var(--color-secondary);
+  color: var(--color-quaternary);
+  cursor: pointer;
+  transform: translateY(0);
+  transition: all .2s ease-in-out;
+}
+
+.btn-primary-app:active {
+  transform: translateY(3px);
+}
+
+.btn-secondary-app {
+  background: var(--color-secondary);
+  cursor: pointer;
+}
+
+.btn-secondary-app svg {
+  fill: var(--color-quaternary);
+  width: 16px;
+  height: 16px;
+  margin: auto;
+  vertical-align: sub;
+}
+
+/* mobile nav */
+#mobile-nav-btn {
+  display: none;
+}
+
+#mobile-nav.header__container {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 768px) {
+  #mobile-nav-btn {
+    display: none;
+  }
+
+  #mobile-nav.header__container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  #mobile-nav-btn {
+    display: none;
+  }
+
+  #mobile-nav.header__container {
+    display: none;
+  }
+}
+
+/* below 900px */
+@media only screen and (max-width: 900px) {
+
+  .header__container,
+  .main,
+  .footer,
+  #about,
+  .hero__left,
+  .hero__right {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero__left {
+    margin-bottom: 20px;
+  }
+
+  .header__container {
+    display: none;
+  }
+
+  #mobile-nav-btn {
+    display: block;
+  }
+
+  #mobile-nav.header__container {
+    /* display: block; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #mobile-nav-menu {
+    position: absolute;
+    left: 5%;
+    width: 90vw;
+    height: 70vh;
+    margin: 0 auto;
+    margin-top: -20px;
+    border-radius: 2px;
+  }
+
+  .menu__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-secondary);
+  }
+
+  #mobile-nav-menu .menu__container nav {
+    height: 70%;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #mobile-nav-menu .menu__container nav .nav__menu {
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #mobile-nav-menu .menu__container nav .nav__menu span {
+    display: none;
+  }
+
+  .nav .nav__menu .nav__menu--items:hover {
+    background-color: var(--color-primary);
+  }
+
+  .nav .nav__menu .nav__menu--items:hover a {
+    color: var(--color-secondary);
+  }
+
+  .nav .nav__menu .nav__menu--items a {
+    color: var(--color-quaternary);
+  }
+
+  .btn__container {
+    width: 100%;
+  }
+
+  .btn__container .btn-primary-app {
+    background: var(--color-primary);
+    color: var(--color-secondary);
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+    font-weight: 600;
+  }
+}
+
+#landingHomePageLargeText {
+  font-size: 55px;
+}
+
+#landingAboutPageContactIcons {
+  color: black;
+}
+
+#landingAboutPageContactIcons:hover {
+  color: darkslategrey;
+}
+
+#landingFunctionalitiesPageVideo {
+  width: 100%;
+  min-height: 300px;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 20px;
+}
+
+#landingFunctionalitiesListOfFunctions {
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  float: none;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+#landingFunctionalitiesTimestampLink {
+  text-decoration: none;
+  color: blue;
+}
+
+#landingFunctionalitiesTimestampLink:hover {
+  text-decoration: underline;
+}
