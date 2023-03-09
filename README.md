@@ -182,4 +182,4 @@ I've set up Git Actions for this repository to run automated tests on pushes/PRs
 - [Julian Tjiong](https://juliantjg.github.io/)
 
 ## :scroll: License
-- [Standart MIT License](https://github.com/juliantjg/Ribbit/blob/readme-enhancement/LICENSE.md)
+- [Standart MIT License](https://github.com/juliantjg/Ribbit/blob/main/LICENSE.md)
