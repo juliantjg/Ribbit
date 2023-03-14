@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/53683415/223293131-997df882-f40d-4073-9bd6-9d4bcd0d87b4.png" width="100">
+  <img src="https://user-images.githubusercontent.com/53683415/223293131-997df882-f40d-4073-9bd6-9d4bcd0d87b4.png" width="135">
   <h1> 
     RIBBIT
   </h1>
