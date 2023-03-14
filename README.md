@@ -167,6 +167,7 @@ You can access the dockerized full stack version of <b>Ribbit</b> under the GitH
  <br />
  
 1. Click on the `ribbit-full-stack` package provided on the the Packages section of this repository (or [click here](https://github.com/juliantjg/Ribbit/pkgs/container/ribbit-full-stack)):
+
 ![image](https://user-images.githubusercontent.com/53683415/224958641-32c03471-cabb-404c-9bd1-01e445b47be2.png#gh-dark-mode-only)
 ![image](https://user-images.githubusercontent.com/53683415/224959049-a29bc18b-1ae3-4c17-a553-c0adb3ff9e39.png#gh-light-mode-only)
 
