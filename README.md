@@ -36,11 +36,12 @@
 - Loader, error handling, etc
 - MySQL database on deployed server
 - Back-end unit testing
-- GitHub CI (Continuous Integration)
+- GitHub CT (Continuous Testing)
+- Dockerized the entire project under a container
 - Deployed on online virtual machine service (Digital Ocean)
 
-## :airplane: Getting Started
-Setting up <b>Ribbit</b> on your local machine? Here are the instructions:
+## :airplane: Getting Started (without Docker)
+Setting up <b>Ribbit</b> on your local machine without Docker? Here are the instructions:
 
 <details>
  <summary><b>Setting up the back-end</b></summary>
@@ -158,6 +159,46 @@ $ python manage.py test
 
 </details>
 
+## :whale: Docker
+You can access the dockerized full stack version of <b>Ribbit</b> under the GitHub Container Registry [here](https://github.com/juliantjg/Ribbit/pkgs/container/ribbit-full-stack). Follow these steps to run the Docker image on your local machine:
+
+<details>
+ <summary><b>Setting up full stack app with Docker</b></summary>
+ <br />
+ 
+1. Click on the `ribbit-full-stack` package provided on the the Packages section of this repository (or [click here](https://github.com/juliantjg/Ribbit/pkgs/container/ribbit-full-stack)):
+![image](https://user-images.githubusercontent.com/53683415/224958641-32c03471-cabb-404c-9bd1-01e445b47be2.png#gh-dark-mode-only)
+![image](https://user-images.githubusercontent.com/53683415/224959049-a29bc18b-1ae3-4c17-a553-c0adb3ff9e39.png#gh-light-mode-only)
+
+
+2. Next, pull the image:
+```sh
+docker pull ghcr.io/juliantjg/ribbit-full-stack:latest
+```
+
+3. Finally, run the image:
+```sh
+docker run -p 8000:8000 -it ghcr.io/juliantjg/ribbit-full-stack:latest
+
+=======================================================
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 14, 2023 - 09:11:34
+Django version 4.1.3, using settings 'backend.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+=======================================================
+```
+
+4. Finally, access the application by entering the following link on your browser:
+```sh
+http://localhost:8000/#/landingPage/functionalitiesLanding
+```
+
+</details>
+
 ## :recycle: Continuous Testing <img src="https://github.com/juliantjg/Ribbit/actions/workflows/django.yml/badge.svg">
 I've set up Git Actions for this repository to run automated tests on pushes/PRs made on the `main`. 
 <details>
@@ -170,13 +211,14 @@ I've set up Git Actions for this repository to run automated tests on pushes/PRs
 
 </details>
   
-## 🛠️ Built With <img src="https://user-images.githubusercontent.com/53683415/223294710-a2ba9d4c-c680-497a-9b71-101f2186fc49.png" width="30"> <img src="https://user-images.githubusercontent.com/53683415/223313723-71cdde37-3494-44e8-80cb-01edecb3311c.png" width="30"> <img src="https://user-images.githubusercontent.com/53683415/223313755-bd62bfeb-f2f6-4d6d-9787-ca8ccc7826da.png" width="30"> <img src="https://user-images.githubusercontent.com/53683415/223313774-2b46fc19-b811-483f-a53c-978070d5777e.png" width="30"> <img src="https://user-images.githubusercontent.com/53683415/223313813-78e199cc-9a22-4603-99d3-6b50e2bcec0f.png" width="30"> <img src="https://user-images.githubusercontent.com/53683415/223313847-3cf57f1a-11fd-4963-a1df-b3895e478119.png" width="30">
+## 🛠️ Built With <img src="https://user-images.githubusercontent.com/53683415/223294710-a2ba9d4c-c680-497a-9b71-101f2186fc49.png" width="30"> <img src="https://user-images.githubusercontent.com/53683415/223313723-71cdde37-3494-44e8-80cb-01edecb3311c.png" width="30"> <img src="https://user-images.githubusercontent.com/53683415/224955579-a1ed2e8c-3ab7-41e1-b129-f37466f77c05.png" width="30"> <img src="https://user-images.githubusercontent.com/53683415/223313774-2b46fc19-b811-483f-a53c-978070d5777e.png" width="30"> <img src="https://user-images.githubusercontent.com/53683415/223313813-78e199cc-9a22-4603-99d3-6b50e2bcec0f.png" width="30"> <img src="https://user-images.githubusercontent.com/53683415/223313847-3cf57f1a-11fd-4963-a1df-b3895e478119.png" width="30"> <img src="https://user-images.githubusercontent.com/53683415/224954200-33f50594-34e2-43b6-81e9-f3c0bb269f97.png" width="30">
 - <img src="https://user-images.githubusercontent.com/53683415/223294710-a2ba9d4c-c680-497a-9b71-101f2186fc49.png" width="12"> <b><a href="https://reactjs.org/">React</a> -</b> React is a free and open-source front-end JavaScript library for building user interfaces based on components.
 - <img src="https://user-images.githubusercontent.com/53683415/223313723-71cdde37-3494-44e8-80cb-01edecb3311c.png" width="12"> <b><a href="https://getbootstrap.com/">Bootstrap</a> -</b> Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
-- <img src="https://user-images.githubusercontent.com/53683415/223313755-bd62bfeb-f2f6-4d6d-9787-ca8ccc7826da.png" width="12"> <b><a href="https://www.mysql.com/">MySQL</a> -</b> MySQL is an open-source relational database management system.
+- <img src="https://user-images.githubusercontent.com/53683415/224955579-a1ed2e8c-3ab7-41e1-b129-f37466f77c05.png" width="12"> <b><a href="https://www.mysql.com/">MySQL</a> -</b> MySQL is an open-source relational database management system.
 - <img src="https://user-images.githubusercontent.com/53683415/223313774-2b46fc19-b811-483f-a53c-978070d5777e.png" width="12"> <b><a href="https://www.digitalocean.com/">Digital Ocean</a> -</b> DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider.
 - <img src="https://user-images.githubusercontent.com/53683415/223313813-78e199cc-9a22-4603-99d3-6b50e2bcec0f.png" width="12"> <b><a href="https://www.djangoproject.com/">Django</a> -</b> Django is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern.
 - <img src="https://user-images.githubusercontent.com/53683415/223313847-3cf57f1a-11fd-4963-a1df-b3895e478119.png" width="12"> <b><a href="https://redux.js.org/">Redux</a> -</b> Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
+- <img src="https://user-images.githubusercontent.com/53683415/224954200-33f50594-34e2-43b6-81e9-f3c0bb269f97.png" width="12"> <b><a href="https://redux.js.org/">Docker</a> -</b> Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.
 
 ## ✍️ Author
 - [Julian Tjiong](https://juliantjg.github.io/)
