@@ -2,15 +2,16 @@
   <img src="https://user-images.githubusercontent.com/53683415/223293131-997df882-f40d-4073-9bd6-9d4bcd0d87b4.png" width="135">
   <h1> 
     RIBBIT
-    <br>
-    <img src="https://img.shields.io/badge/react-v17.0-lightyellow">
-    <img src="https://img.shields.io/badge/python-v3.8-lightyellow">
-    <img src="https://img.shields.io/badge/redux-v7.2-lightyellow">
-    <img src="https://img.shields.io/badge/django-v4.0-lightyellow">
+    
   </h1>
   <a href="http://170.64.146.173:8000/#/landingPage/mainLanding" target=”_blank”><b>:link: LAUNCH</b></a>
   <br><br>
    Fullstack Reddit Clone Made With React+Redux & Django.
+   <br>
+   <img src="https://img.shields.io/badge/react-v17.0-lightyellow">
+   <img src="https://img.shields.io/badge/python-v3.8-lightyellow">
+   <img src="https://img.shields.io/badge/redux-v7.2-lightyellow">
+   <img src="https://img.shields.io/badge/django-v4.0-lightyellow">
 </div>
 <br>
 <div align="center">
