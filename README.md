@@ -7,7 +7,7 @@
   <a href="http://170.64.146.173:8000/#/landingPage/mainLanding" target=”_blank”><b>:link: LAUNCH</b></a>
   <br><br>
    Fullstack Reddit Clone Made With React+Redux & Django.
-   <br>
+   <br><br>
    <img src="https://img.shields.io/badge/react-v17.0-lightyellow">
    <img src="https://img.shields.io/badge/python-v3.8-lightyellow">
    <img src="https://img.shields.io/badge/redux-v7.2-lightyellow">
