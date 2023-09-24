@@ -2,12 +2,12 @@
   <img src="https://user-images.githubusercontent.com/53683415/223293131-997df882-f40d-4073-9bd6-9d4bcd0d87b4.png" width="135">
   <h1> 
     RIBBIT
-    
   </h1>
   <a href="http://170.64.146.173:8000/#/landingPage/mainLanding" target=”_blank”><b>:link: LAUNCH</b></a>
   <br><br>
    Fullstack Reddit Clone Made With React+Redux & Django.
    <br><br>
+
    <img src="https://img.shields.io/badge/react-v17.0-lightyellow">
    <img src="https://img.shields.io/badge/python-v3.8-lightyellow">
    <img src="https://img.shields.io/badge/redux-v7.2-lightyellow">
@@ -15,11 +15,24 @@
 </div>
 <br>
 <div align="center">
+  <img src="https://github.com/juliantjg/Ribbit/assets/53683415/ce71d174-c221-4760-8d35-d772570fc368" width="600">
+</div>
+
+<div align="center">
+<details>
+  
+ <summary><b>Show screenshots</b></summary>
+<div align="center">
+  <br>
   <img src="https://user-images.githubusercontent.com/53683415/223298414-168d83a6-f305-42fc-b7c5-039f5e87a1d7.png" width="380">
   <img src="https://user-images.githubusercontent.com/53683415/223298128-31b906fa-19ec-4212-a9d2-327c4719f9db.png" width="380">
   <img src="https://user-images.githubusercontent.com/53683415/223298978-c0fc1594-940a-4d6c-a07a-06dec2f392f6.png" width="380">
   <br>
 </div>
+  
+</details>
+</div>
+
 
 ## :question: What Is Ribbit?
 <a href="https://www.youtube.com/watch?v=8BLILMtfteE&feature=emb_logo">:movie_camera: Intro Video</a> <br>
