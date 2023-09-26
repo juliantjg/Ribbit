@@ -24,9 +24,9 @@
  <summary><b>Show screenshots</b></summary>
 <div align="center">
   <br>
-  <img src="https://user-images.githubusercontent.com/53683415/223298414-168d83a6-f305-42fc-b7c5-039f5e87a1d7.png" width="380">
-  <img src="https://user-images.githubusercontent.com/53683415/223298128-31b906fa-19ec-4212-a9d2-327c4719f9db.png" width="380">
-  <img src="https://user-images.githubusercontent.com/53683415/223298978-c0fc1594-940a-4d6c-a07a-06dec2f392f6.png" width="380">
+  <img src="https://user-images.githubusercontent.com/53683415/223298414-168d83a6-f305-42fc-b7c5-039f5e87a1d7.png" width="300">
+  <img src="https://user-images.githubusercontent.com/53683415/223298128-31b906fa-19ec-4212-a9d2-327c4719f9db.png" width="300">
+  <img src="https://user-images.githubusercontent.com/53683415/223298978-c0fc1594-940a-4d6c-a07a-06dec2f392f6.png" width="300">
   <br>
 </div>
   
